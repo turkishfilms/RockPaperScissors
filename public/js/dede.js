@@ -9,10 +9,10 @@ const getPlayerGesture = (gestures, round) => {
     return userGesture
 }
 
-const getComputerGesture2 = (gestures) => { return gestures[Math.floor(Math.random() * gestures.length)] }
+const getComputerGesture = (gestures) => { return gestures[Math.floor(Math.random() * gestures.length)] }
 
 
-const getComputerGesture = () => "scissors"
+const getComputerGesture2 = () => "scissors"
 
 const compareGestures = (playedGestures, gestures) => { //returns 0 0.5 1
     const p1 = playedGestures[0],
